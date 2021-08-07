@@ -1,0 +1,8 @@
+config.ini
+
+__pycache__/
+
+# environemnt component
+bin/
+lib/
+pyvenv.cfg

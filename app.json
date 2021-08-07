@@ -1,0 +1,22 @@
+{
+    "name": "ytdl bot",
+    "description": "bot can send you information about pokemons",
+    "repository": "https://github.com/iniyanv/pokedex",
+    "keywords": ["Pokedex", "pokemon", "telegram bot"],
+    "env": {
+        "TOKEN": {
+            "description" : ""
+        },
+        "APP_ID": {
+            "description": ""
+        },
+        "API_HASH": {
+            "description": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
